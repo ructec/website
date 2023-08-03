@@ -1,5 +1,4 @@
 # RUQTEC
-- Ruqtec institue website
-
+Ruqtec institue website
 hosted on ruqtec.com
 
