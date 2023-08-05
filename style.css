@@ -1,0 +1,103 @@
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    color: #151414;
+    font-family: 'Lato', sans-serif;
+}
+
+/* general styles */
+.flex-grp{
+    display: flex;
+    justify-content: space-between;
+}
+
+li, a{
+    text-decoration: none;
+    list-style: none;
+    text-transform: capitalize;
+}
+
+h1, h2, a {
+    color: #067EB9;
+
+}
+a:hover{
+    border-bottom: 2px solid  #067EB9;    
+}
+/* Header styles */
+header {
+    background-color: #ffff;
+    align-items: center;
+    /* border: 2px solid red; */
+    padding: 1vw 4vw;
+    box-shadow: 0px 8px 16px 2px rgba(122, 120, 120, 0.06);
+
+}
+
+.header-left{
+    align-items: center;
+
+}
+
+.icon{
+    height: 5rem;
+    width: 5rem;
+
+}
+
+.header-right{
+    justify-content: space-between;
+    align-items: center;
+    width: 50vw;
+}
+.btn{
+    background-color: #0797DE;
+    border-radius: 10px;
+}
+.btn, .btn a{
+    color: #151414;
+}
+
+.courses-list{
+    display: none;
+    position: absolute;
+    z-index: -1;
+}
+
+/* main container styles */
+
+.upper-container{
+    border: 2px solid blue;
+    padding: 1vw 8vw;
+    margin: auto;
+    background-color: #F6F6F6;
+    column-gap: 4vw;
+    height: fit-content;
+}
+
+.welcome-container{
+    width: 50%;
+    border: 2px solid black;
+
+}
+
+.welcome-header{
+    font-weight: 900;
+    font-size: 3.2rem;
+    padding-bottom: 1vw;
+}
+
+.welcome-paragraph{
+    font-weight: 400;
+    padding-bottom: 1vw;
+
+
+}
+
+.welcome-img-container{
+    width: 50%;
+}
+.welcome-img{
+    border-radius: 20px;
+}
